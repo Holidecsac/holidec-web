@@ -1,46 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Metalmecánica León</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HOLIDEC SAC - Ingeniería en fabricación y mantenimiento</title>
+  <meta name="description" content="HOLIDEC SAC - Ingeniería en fabricación y mantenimiento. Reparación de estructuras, transformadores, soldadura e instalaciones.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Metalmecánica León</h1>
-        <nav>
-            <a href="#servicios">Servicios</a>
-            <a href="#galeria">Galería</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-    </header>
-
-    <section id="servicios">
-        <h2>Servicios</h2>
-        <ul>
-            <li>Fabricación de estructuras metálicas</li>
-            <li>Mantenimiento industrial</li>
-            <li>Instalación de transformadores</li>
-        </ul>
-    </section>
-
-    <section id="galeria">
-        <h2>Galería</h2>
-        <div class="galeria">
-            <img src="imagenes/estructura1.jpg" alt="Estructura metálica">
-            <img src="imagenes/estructura2.jpg" alt="Transformador">
+  <header class="site-header">
+    <div class="container header-grid">
+      <div class="brand">
+        <!-- Inline SVG logo -->
+        <img src="assets/logo.svg" alt="HOLIDEC SAC logo" class="logo">
+        <div class="brand-text">
+          <h1>HOLIDEC SAC</h1>
+          <p class="slogan">Ingeniería en fabricación y mantenimiento</p>
         </div>
+      </div>
+      <nav class="nav">
+        <a href="#services">Servicios</a>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#about">Sobre nosotros</a>
+        <a href="#contact" class="btn">Contáctanos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h2>Construimos más que metal</h2>
+          <p class="lead">Forjamos soluciones, confianza y futuro, con la misma fuerza que impulsa nuestro progreso.</p>
+          <p class="cta-row">
+            <a href="#contact" class="btn large">Solicita una cotización</a>
+            <a href="#portfolio" class="btn ghost">Ver trabajos</a>
+          </p>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="assets/placeholder1.svg" alt="Imagen de transformador/estructura (placeholder)">
+        </div>
+      </div>
     </section>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Email: contacto@metalmecanicaleon.com</p>
-        <p>Teléfono: +51 987 654 321</p>
+    <section id="services" class="section services">
+      <div class="container">
+        <h3 class="section-title">Servicios</h3>
+        <div class="services-grid">
+          <div class="service-card">
+            <h4>Reparación de estructuras</h4>
+            <p>Inspección, reparación y refuerzo de estructuras metálicas industriales.</p>
+          </div>
+          <div class="service-card">
+            <h4>Mantenimiento general</h4>
+            <p>Planificación y ejecución de mantenimientos preventivos y correctivos.</p>
+          </div>
+          <div class="service-card">
+            <h4>Reparación de transformadores</h4>
+            <p>Diagnóstico y reparación especializada para transformadores eléctricos.</p>
+          </div>
+          <div class="service-card">
+            <h4>Soldadura</h4>
+            <p>Soldadura especializada (MIG/MAG/TIG) para piezas y ensamblajes complejos.</p>
+          </div>
+          <div class="service-card">
+            <h4>Diseño especializado</h4>
+            <p>Ingeniería y diseño de estructuras a medida según especificaciones técnicas.</p>
+          </div>
+          <div class="service-card">
+            <h4>Instalaciones</h4>
+            <p>Montaje e instalación de equipos, líneas y estructuras en sitio.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <footer>
-        <p>© 2025 Metalmecánica León</p>
-    </footer>
+    <section id="portfolio" class="section portfolio">
+      <div class="container">
+        <h3 class="section-title">Portafolio</h3>
+        <p class="muted">Trabajos recientes — reemplaza estas imágenes por tus fotos reales.</p>
+        <div class="portfolio-grid">
+          <div class="port-item"><img src="assets/placeholder1.svg" alt="Trabajo 1"></div>
+          <div class="port-item"><img src="assets/placeholder1.svg" alt="Trabajo 2"></div>
+          <div class="port-item"><img src="assets/placeholder1.svg" alt="Trabajo 3"></div>
+          <div class="port-item"><img src="assets/placeholder1.svg" alt="Trabajo 4"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div>
+          <h3 class="section-title">Sobre HOLIDEC SAC</h3>
+          <p>HOLIDEC SAC es una empresa especializada en ingeniería, fabricación y mantenimiento industrial. Contamos con un equipo técnico con experiencia en soldadura, reparación de transformadores y montaje de estructuras metálicas.</p>
+          <ul class="about-list">
+            <li>Profesionalismo y seguridad</li>
+            <li>Calidad certificada en procesos</li>
+            <li>Respaldo técnico y soporte post-servicio</li>
+          </ul>
+        </div>
+        <div class="about-contact">
+          <h4>Contacto</h4>
+          <p>Email: <a href="mailto:holidecsacpublicidad@gmail.com">holidecsacpublicidad@gmail.com</a></p>
+          <p>Teléfono: +51 9XX XXX XXX (reemplaza con tu número)</p>
+          <p>Dirección: Lima, Perú (opcional)</p>
+          <div class="contact-cta">
+            <a href="mailto:holidecsacpublicidad@gmail.com" class="btn">Escríbenos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h3 class="section-title">Solicita una cotización</h3>
+        <p class="muted">Rellena los datos y te contactaremos a la brevedad. (Actualmente el formulario usa mailto; para formulario funcional, sigue las instrucciones en README.)</p>
+        <form class="contact-form" onsubmit="return submitForm(event)">
+          <div class="form-row">
+            <input type="text" id="name" placeholder="Nombre completo" required>
+            <input type="email" id="email" placeholder="Correo electrónico" required>
+          </div>
+          <div>
+            <input type="text" id="phone" placeholder="Teléfono (opcional)">
+          </div>
+          <div>
+            <textarea id="message" rows="5" placeholder="Describe el servicio o consulta" required></textarea>
+          </div>
+          <div class="form-row">
+            <button class="btn large" type="submit">Enviar</button>
+            <button class="btn ghost" type="button" onclick="copyEmail()">Copiar email</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>© HOLIDEC SAC — Ingeniería en fabricación y mantenimiento</div>
+      <div class="socials">Email: <a href="mailto:holidecsacpublicidad@gmail.com">holidecsacpublicidad@gmail.com</a></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

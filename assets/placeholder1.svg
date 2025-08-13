@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <rect width="1200" height="800" fill="#eaf4ff"/>
+  <g transform="translate(60,120)" fill="#cfe8ff">
+    <rect x="0" y="0" width="480" height="320" rx="10"></rect>
+    <rect x="520" y="0" width="480" height="320" rx="10"></rect>
+    <rect x="0" y="360" width="480" height="320" rx="10"></rect>
+    <rect x="520" y="360" width="480" height="320" rx="10"></rect>
+  </g>
+  <text x="600" y="440" font-size="36" font-family="Arial" fill="#0a66c2" text-anchor="middle">Imagen placeholder</text>
+</svg>
